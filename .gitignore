@@ -1,0 +1,5 @@
+# Ignore folders
+node_modules/
+public/dist/
+
+# Ignore files

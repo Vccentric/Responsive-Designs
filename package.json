@@ -1,0 +1,45 @@
+{
+    "name": "responsive-designs",
+    "version": "1.0.0",
+    "description": "This project contains a list of web pages with responsive designs to showcase my work.",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack",
+        "start": "npm run build",
+        "devbuild": "webpack --mode development",
+        "devstart": "webpack-dev-server --mode development"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Vccentric/Responsive-Designs.git"
+    },
+    "keywords": [
+        "JavaScript",
+        "React.js"
+    ],
+    "author": "Christopher Viray",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Vccentric/Responsive-Designs/issues"
+    },
+    "homepage": "https://github.com/Vccentric/Responsive-Designs#readme",
+    "dependencies": {
+        "babel-loader": "^8.0.5",
+        "css-loader": "^2.1.1",
+        "file-loader": "^3.0.1",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "react-router-dom": "^5.0.0",
+        "style-loader": "^0.23.1",
+        "webpack": "^4.30.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.4.4",
+        "@babel/core": "^7.4.4",
+        "@babel/plugin-proposal-class-properties": "^7.4.4",
+        "@babel/preset-env": "^7.4.4",
+        "@babel/preset-react": "^7.0.0",
+        "webpack-cli": "^3.3.1",
+        "webpack-dev-server": "^3.3.1"
+    }
+}
