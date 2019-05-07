@@ -17,11 +17,50 @@
 /* ===== Header ===== */
 
 #header {
-    
+    background-color: #28a428;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#header .container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+#header .menubar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex: 3;
 }
 
 /* ===== Footer ===== */
 
 #footer {
-    
+    background-color: #333333;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#footer .container {
+    display: flex;
+    flex-direction: column;
 }
