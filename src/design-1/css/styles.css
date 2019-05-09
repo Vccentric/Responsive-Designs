@@ -14,6 +14,22 @@
     background-color: whitesmoke;
 }
 
+.title {
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+}
+
+.container.row {
+    flex-direction: row;
+}
+
+.container.column {
+    flex-direction: column;
+}
+
 /* ===== Header ===== */
 
 #header {

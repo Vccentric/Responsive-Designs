@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
+import ServicesSection from "./ServicesSection";
 import ConsultationForm from "./ConsultationForm";
 import "../css/styles.css";
 import "../../third-party-libraries/Normalize-8.0.1.css";
@@ -10,6 +11,7 @@ const App = () => {
     return (
         <div id="page-container">
             <Header />
+            <ServicesSection />
             <ConsultationForm />
             <Footer />
         </div>
