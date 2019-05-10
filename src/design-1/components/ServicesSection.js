@@ -3,7 +3,7 @@ import React from "react";
 // services section component
 const ServicesSection = () => {
     return (
-        <div className="services-section">
+        <div id="services-section">
             <h2 className="title">Your single source for omnichannel intelligence and optimization</h2>
             <div className="container row">
                 <div className="container column">
