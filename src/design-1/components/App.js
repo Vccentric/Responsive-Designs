@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import ServicesSection from "./ServicesSection";
+import HowItWorksSection from "./HowItWorksSection";
 import CustomersLikesSection from './CustomersLikesSection';
 import ConsultationForm from "./ConsultationForm";
 import "../css/styles.css";
@@ -13,6 +14,7 @@ const App = () => {
         <div id="page-container">
             <Header />
             <ServicesSection />
+            <HowItWorksSection />
             <CustomersLikesSection />
             <ConsultationForm />
             <Footer />

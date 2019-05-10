@@ -65,22 +65,28 @@
     
 }
 
+/* ===== How It Works Section ===== */
+
+#how-it-works-section {
+
+}
+
 /* ===== Customers Likes Section ===== */
 
 #customers-likes-section {
-    
+
 }
 
 /* ===== Consultation ===== */
 
 #consultation {
-    
+
 }
 
 /* ===== Newsletter ===== */
 
 #newsletter-form {
-    
+
 }
 
 /* ===== Footer ===== */
@@ -104,4 +110,3 @@
     display: flex;
     flex-direction: column;
 }
-
