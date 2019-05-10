@@ -1,4 +1,5 @@
 import React from "react";
+import NewsletterForm from "./NewsletterForm";
 
 // footer component
 const Footer = () => {
@@ -22,6 +23,7 @@ const Footer = () => {
                 <li>Support</li>
                 <li>Resources</li>
             </ul>
+            <NewsletterForm />
         </footer>
     );
 }
