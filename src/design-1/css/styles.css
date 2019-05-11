@@ -43,6 +43,15 @@ ul {
     padding: 0;
 }
 
+button {
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+}
+
 /* ===== Header ===== */
 
 #header {
@@ -118,11 +127,47 @@ ul {
 
 }
 
-/* ===== Consultation ===== */
+/* ===== Consultation Form ===== */
 
-#consultation {
-
+#consultation-form {
+    background-color: #28a428;
+    color: white;
 }
+
+#consultation-form .container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    max-width: 800px;
+    padding: 40px 0;
+    margin: 0 auto;
+}
+
+#consultation-form .title {
+    text-decoration: underline;
+    text-align: center;
+}
+
+#consultation-form .description {
+    text-align: center;
+}
+
+#consultation-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+}
+
+#consultation-form select {
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid white;
+}
+
+#consultation-form button {
+    margin: 0 auto;
+}
+
 
 /* ===== Newsletter ===== */
 
@@ -146,15 +191,6 @@ ul {
     padding: 5px;
     margin-bottom: 10px;
     border: 1px solid white;
-}
-
-#newsletter-form button {
-    background-color: red;
-    border: 1px solid red;
-    color: white;
-    font-weight: bold;
-    width: 150px;
-    height: 40px;
 }
 
 /* ===== Footer ===== */
