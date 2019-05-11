@@ -12,8 +12,8 @@
 
 #root {
     background-color: whitesmoke;
-    font-size: 18px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 16px;
 }
 
 .title {
@@ -127,7 +127,34 @@ ul {
 /* ===== Newsletter ===== */
 
 #newsletter-form {
+    display: flex;
+    flex: 1.5;
+    flex-direction: column;
+}
 
+#newsletter-form .title {
+    margin: 0;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+#newsletter-form .description {
+    margin: 10px 0;
+}
+
+#newsletter-form input {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+}
+
+#newsletter-form button {
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
 }
 
 /* ===== Footer ===== */
@@ -136,18 +163,28 @@ ul {
     background-color: #333333;
     color: white;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-#footer ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    padding: 30px 0;
+    font-size: 15px;
+    line-height: 15px;
 }
 
 #footer .container {
     display: flex;
     flex-direction: column;
+    flex: 1;
+}
+
+#footer .container.max {
+    flex-direction: row;
+}
+
+#footer .category {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+#footer li {
+    margin-bottom: 10px;
 }
