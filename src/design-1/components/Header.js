@@ -4,18 +4,20 @@ import React from "react";
 const Header = () => {
     return (
         <header id="header">
-            <div className="container">
-                <div className="logo">D</div>
-                <div className="company">Demo</div>
+            <div className="container max">
+                <div className="company-info">
+                    <div className="logo">D</div>
+                    <div className="company">Demo</div>
+                </div>
+                <ul className="menubar">
+                    <li>SERVICES</li>
+                    <li>SOLUTIONS</li>
+                    <li>RESOURCES</li>
+                    <li>ABOUT</li>
+                    <li>CAREERS</li>
+                    <li>CONTACT</li>
+                </ul>
             </div>
-            <ul className="menubar">
-                <li>Services</li>
-                <li>Solutions</li>
-                <li>Resources</li>
-                <li>About</li>
-                <li>Careers</li>
-                <li>Contact</li>
-            </ul>
         </header>
     );
 }
