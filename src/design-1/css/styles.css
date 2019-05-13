@@ -118,7 +118,38 @@ button {
 /* ===== How It Works Section ===== */
 
 #how-it-works-section {
+    background-color: #28a428;
+    color: white;
+    padding: 40px 0;
+}
 
+#how-it-works-section .how-it-works-points {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
+    align-items: center;
+}
+
+#how-it-works-section .how-it-works-points .point {
+    flex: 1;
+    flex-basis: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#how-it-works-section .how-it-works-points .point .num {
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-bottom: 5px;
+}
+
+#how-it-works-section .how-it-works-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 /* ===== Customers Likes Section ===== */
