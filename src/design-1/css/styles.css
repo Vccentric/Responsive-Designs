@@ -124,7 +124,30 @@ button {
 /* ===== Customers Likes Section ===== */
 
 #customers-likes-section {
+    padding: 40px 0;
+}
 
+#customers-likes-section .title {
+    text-align: center;
+}
+
+#customers-likes-section .customers-likes-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#customers-likes-section .customers-like {
+    flex: 1;
+    flex-basis: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#customers-likes-section .customers-like h3 {
+    margin: 10px 0;
 }
 
 /* ===== Consultation Form ===== */
