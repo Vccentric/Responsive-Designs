@@ -112,7 +112,16 @@ button {
 /* ===== Services Section ===== */
 
 #services-section {
+    padding: 40px 0;
+}
 
+#services-section .title {
+    text-align: center;
+}
+
+#services-section .service {
+    margin: 0 10px;
+    text-align: center;
 }
 
 /* ===== How It Works Section ===== */

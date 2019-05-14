@@ -4,22 +4,24 @@ import React from "react";
 const ServicesSection = () => {
     return (
         <div id="services-section">
-            <h2 className="title">Your single source for omnichannel intelligence and optimization</h2>
-            <div className="container row">
-                <div className="container column">
-                    <h3 className="title">Market Intelligence</h3>
-                    <p className="description">Comprehensive market intelligence for ultimate visibility into your competitive landscape across the spectrum of pricing, assortment, and promotions.</p>
-                    <span>LEARN MORE</span>
-                </div>
-                <div className="container column">
-                    <h3 className="title">Optimization</h3>
-                    <p className="description">Automate online and in-store data collection, analysis, and workflows to capitalize on opportunities to optimize your business.</p>
-                    <span>LEARN MORE</span>
-                </div>
-                <div className="container column">
-                    <h3 className="title">Compliance</h3>
-                    <p className="description">Protect your brand by ensuring pricing and merchandising compliance across your entire reseller network, both online and in-store.</p>
-                    <span>LEARN MORE</span>
+            <div className="container max column">
+                <h2 className="title">Your single source for omnichannel intelligence and optimization</h2>
+                <div className="container row">
+                    <div className="container column service">
+                        <h3 className="title">Market Intelligence</h3>
+                        <p className="description">Comprehensive market intelligence for ultimate visibility into your competitive landscape across the spectrum of pricing, assortment, and promotions.</p>
+                        <span>LEARN MORE</span>
+                    </div>
+                    <div className="container column service">
+                        <h3 className="title">Optimization</h3>
+                        <p className="description">Automate online and in-store data collection, analysis, and workflows to capitalize on opportunities to optimize your business.</p>
+                        <span>LEARN MORE</span>
+                    </div>
+                    <div className="container column service">
+                        <h3 className="title">Compliance</h3>
+                        <p className="description">Protect your brand by ensuring pricing and merchandising compliance across your entire reseller network, both online and in-store.</p>
+                        <span>LEARN MORE</span>
+                    </div>
                 </div>
             </div>
         </div>
