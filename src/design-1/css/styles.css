@@ -61,6 +61,11 @@ button {
     flex-direction: row;
     flex-wrap: nowrap;
     height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 4px 4px 4px #cccccc;
 }
 
 #header .company-info {
@@ -113,6 +118,7 @@ button {
 
 #services-section {
     padding: 40px 0;
+    margin-top: 50px;
 }
 
 #services-section .title {
