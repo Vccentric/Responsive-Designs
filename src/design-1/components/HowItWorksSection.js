@@ -1,25 +1,38 @@
 import React from "react";
+import { withStyles } from '@material-ui/core/styles';
+import { History, Devices, People, BrandingWatermarkOutlined } from '@material-ui/icons';
 
-const HowItWorksSection = () => {
+const styles = {
+    root: {
+        fontSize: '48px'
+    }
+};
+
+const HowItWorksSection = (props) => {
+    const { classes } = props;
     return (
         <div id="how-it-works-section">
             <div className="container max row">
                 <ul className="container row how-it-works-points">
                     <li className="point">
+                        <BrandingWatermarkOutlined classes={{ root: classes.root }} />
                         <span className="num">30+</span>
-                        <span>BRANDS TRACKED</span>
+                        <span className="name">BRANDS TRACKED</span>
                     </li>
                     <li className="point">
+                        <Devices classes={{ root: classes.root }} />
                         <span className="num">100+</span>
-                        <span>SKUS MONITORED</span>
+                        <span className="name">SKUS MONITORED</span>
                     </li>
                     <li className="point">
+                        <People classes={{ root: classes.root }} />
                         <span className="num">700+</span>
-                        <span>CROWDSOURCED SHOPPERS</span>
+                        <span className="name">CROWDSOURCED SHOPPERS</span>
                     </li>
                     <li className="point">
+                        <History classes={{ root: classes.root }} />
                         <span className="num">5+</span>
-                        <span>YEARS OF PRODUCT HISTORY</span>
+                        <span className="name">YEARS OF PRODUCT HISTORY</span>
                     </li>
                 </ul>
                 <div className="container column how-it-works-info">
@@ -31,4 +44,4 @@ const HowItWorksSection = () => {
     );
 }
 
-export default HowItWorksSection;
+export default withStyles(styles)(HowItWorksSection);

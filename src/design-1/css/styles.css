@@ -153,6 +153,8 @@ button {
     display: flex;
     flex-direction: column;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 #how-it-works-section .how-it-works-points .point .num {
@@ -161,10 +163,15 @@ button {
     margin-bottom: 5px;
 }
 
+#how-it-works-section .how-it-works-points .point .name {
+    margin-bottom: 10px;
+}
+
 #how-it-works-section .how-it-works-info {
     display: flex;
     flex-direction: column;
     flex: 1;
+    padding-left: 10px;
 }
 
 /* ===== Customers Likes Section ===== */
