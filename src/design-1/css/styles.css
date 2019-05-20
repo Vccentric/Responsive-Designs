@@ -272,7 +272,6 @@ button {
     margin: 0 auto;
 }
 
-
 /* ===== Newsletter ===== */
 
 #newsletter-form {
@@ -327,4 +326,68 @@ button {
 
 #footer li {
     margin-bottom: 10px;
+}
+
+/* ===== Tablets/Mobile ===== */
+
+@media screen and (max-width: 768px) {
+
+    /* ===== Header ===== */
+
+    #header .menubar li {
+        font-size: 0.8em;
+        padding: 0 5px;
+    }
+
+    /* ===== Services Section ===== */
+
+    #services-section .max .title {
+        font-size: 2em;
+    }
+
+    #services-section .services {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    #services-section .service {
+        margin: 15px 10px;
+        text-align: center;
+    }
+
+    #services-section .service .title {
+        font-size: 1.8em;
+    }
+
+    /* ===== How It Works Section ===== */
+
+    #how-it-works-section .container.max.row {
+        flex-direction: column;
+    }
+
+    #how-it-works-section .how-it-works-points .point {
+        margin: 10px 0;
+    }
+
+    #how-it-works-section .how-it-works-info {
+        margin-top: 40px;
+        padding: 0;
+    }
+
+    #how-it-works-section .how-it-works-info .title {
+        text-align: center;
+    }
+
+    /* ===== Customers Likes Section ===== */
+
+    #customers-likes-section .customers-likes-list {
+        flex-direction: column;
+    }
+
+    #customers-likes-section .customers-like {
+        flex-basis: auto;
+        width: auto;
+        text-align: center;
+        padding: 10px;
+    }
 }
