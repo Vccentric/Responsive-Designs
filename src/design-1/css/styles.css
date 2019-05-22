@@ -145,7 +145,7 @@ button {
 /* ===== Services Section ===== */
 
 #services-section {
-    padding: 40px 0;
+    padding: 60px 0;
 }
 
 #services-section .services {
@@ -153,12 +153,13 @@ button {
 }
 
 #services-section .service {
+    flex: 1;
     margin: 0 10px;
     text-align: center;
 }
 
 #services-section .service .title {
-    font-size: 1.5em;
+    font-size: 2em;
     line-height: 1em;
     margin: 5px 0;
     text-align: center;
@@ -261,7 +262,7 @@ button {
     display: flex;
     flex-direction: column;
     width: 70%;
-    max-width: 800px;
+    max-width: 600px;
     padding: 40px 0;
     margin: 0 auto;
 }
@@ -278,13 +279,13 @@ button {
 }
 
 #consultation-form input {
-    padding: 10px;
+    padding: 6px;
     margin-bottom: 15px;
     border: 1px solid white;
 }
 
 #consultation-form select {
-    padding: 10px;
+    padding: 6px;
     margin-bottom: 30px;
     border: 1px solid white;
 }
@@ -332,6 +333,7 @@ button {
     display: flex;
     flex-direction: column;
     flex: 1;
+    padding: 0 5px;
 }
 
 #footer .container.max {
