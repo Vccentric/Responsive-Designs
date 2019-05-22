@@ -329,15 +329,15 @@ button {
     line-height: 15px;
 }
 
-#footer .container {
+#footer .footer-list {
     display: flex;
     flex-direction: column;
     flex: 1;
     padding: 0 5px;
 }
 
-#footer .container.max {
-    flex-direction: row;
+#footer .container {
+    flex: 1;
 }
 
 #footer .category {
@@ -349,6 +349,11 @@ button {
 
 #footer li {
     margin-bottom: 10px;
+}
+
+#footer .copyright {
+    text-align: center;
+    margin-top: 40px;
 }
 
 /* ===== Tablets/Mobile ===== */
@@ -424,5 +429,23 @@ button {
         width: auto;
         text-align: center;
         padding: 10px;
+    }
+
+    /* ===== Newsletter ===== */
+
+    #newsletter-form {
+        margin-top: 40px;
+    }
+
+    /* ===== Footer Section ===== */
+
+    #footer .footer-list {
+        flex-basis: 30%;
+        width: 30%;
+        box-sizing: border-box;
+    }
+
+    #footer .footer-lists-section {
+        flex-wrap: wrap;
     }
 }

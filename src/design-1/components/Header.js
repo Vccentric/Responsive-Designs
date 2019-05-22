@@ -11,7 +11,6 @@ const Header = () => {
                 </div>
                 <ul className="menubar">
                     <li>SERVICES</li>
-                    <li>SOLUTIONS</li>
                     <li>RESOURCES</li>
                     <li>ABOUT</li>
                     <li>CAREERS</li>
