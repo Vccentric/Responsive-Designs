@@ -5,7 +5,6 @@ const ServicesSection = () => {
     return (
         <div id="services-section">
             <div className="container max column">
-                <h2 className="title">Your single source for omnichannel intelligence and optimization</h2>
                 <div className="container row services">
                     <div className="container column service">
                         <h3 className="title">Market Intelligence</h3>

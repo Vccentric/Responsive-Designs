@@ -50,6 +50,7 @@ button {
     font-weight: bold;
     width: 150px;
     height: 40px;
+    cursor: pointer;
 }
 
 /* ===== Header ===== */
@@ -65,7 +66,6 @@ button {
     top: 0;
     left: 0;
     width: 100%;
-    box-shadow: 4px 4px 4px #cccccc;
 }
 
 #header .company-info {
@@ -114,17 +114,38 @@ button {
     padding: 0 10px;
 }
 
+/* ===== Main Banner ===== */
+
+#main-banner {
+    background-color: #28a428;
+    color: white;
+    padding: 40px 0;
+    margin-top: 50px;
+    font-size: 1.2em;
+    line-height: 1em;
+}
+
+#main-banner .container.max {
+    margin: 0 25%;
+}
+
+#main-banner .title {
+    font-size: 2.4em;
+    line-height: 1em;
+    text-align: center;
+}
+
+#main-banner button {
+    width: auto;
+    margin: 0 auto;
+    font-weight: 0.9em;
+    margin-top: 20px;
+}
+
 /* ===== Services Section ===== */
 
 #services-section {
     padding: 40px 0;
-    margin-top: 50px;
-}
-
-#services-section .max .title {
-    font-size: 2.2em;
-    line-height: 1em;
-    text-align: center;
 }
 
 #services-section .services {
@@ -331,6 +352,18 @@ button {
 /* ===== Tablets/Mobile ===== */
 
 @media screen and (max-width: 768px) {
+
+    /* === General === */
+
+    .container.max {
+        margin: 0 5%;
+    }
+
+    /* === Main Banner === */
+
+    #main-banner .container.max {
+        margin: 0 5%;
+    }
 
     /* ===== Header ===== */
 
