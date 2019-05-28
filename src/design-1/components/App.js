@@ -1,26 +1,17 @@
 import React from "react";
-import Header from "./Header";
-import Footer from "./Footer";
-import ServicesSection from "./ServicesSection";
-import HowItWorksSection from "./HowItWorksSection";
-import CustomersLikesSection from './CustomersLikesSection';
-import ConsultationForm from "./ConsultationForm";
-import MainBanner from "./MainBanner";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Home from "./Home"
 import "../css/styles.css";
 import "../../third-party-libraries/Normalize-8.0.1.css";
 
-// main component
+// main router component
 const App = () => {
     return (
-        <div id="page-container">
-            <Header />
-            <MainBanner />
-            <ServicesSection />
-            <HowItWorksSection />
-            <CustomersLikesSection />
-            <ConsultationForm />
-            <Footer />
-        </div>
+        <BrowserRouter>
+            <Switch>
+                <Route path="/" exact component={Home} />
+            </Switch>
+        </BrowserRouter>
     );
 }
 
