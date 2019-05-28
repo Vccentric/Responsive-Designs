@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
 
 // header component
 const Header = () => {
@@ -6,14 +7,12 @@ const Header = () => {
         <header id="header">
             <div className="container max">
                 <div className="company-info">
-                    <div className="logo">D</div>
-                    <div className="company">Demo</div>
+                    <div className="logo"><NavLink to="/" activeClassName="selected">D</NavLink></div>
+                    <div className="company"><NavLink to="/" activeClassName="selected">Demo</NavLink></div>
                 </div>
                 <ul className="menubar">
                     <li>SERVICES</li>
-                    <li>RESOURCES</li>
-                    <li>ABOUT</li>
-                    <li>CAREERS</li>
+                    <li><NavLink to="/about" activeClassName="selected">ABOUT</NavLink></li>
                     <li>CONTACT</li>
                 </ul>
             </div>

@@ -68,6 +68,11 @@ button {
     width: 100%;
 }
 
+#header a {
+    color: white;
+    text-decoration: none;
+}
+
 #header .company-info {
     display: flex;
     flex-direction: row;
@@ -91,6 +96,10 @@ button {
     margin-right: 10px;
 }
 
+#header .company-info .logo a {
+    color: #28a428;
+}
+
 #header .company-info .company {
     font-size: 2em;
     font-weight: bold;
@@ -112,6 +121,17 @@ button {
     justify-content: center;
     cursor: pointer;
     padding: 0 10px;
+}
+
+#header .menubar a.selected {
+    text-decoration: underline;
+}
+
+/* ===== Main Banner ===== */
+
+#main-content {
+    padding: 40px 0 80px;
+    margin-top: 50px;
 }
 
 /* ===== Main Banner ===== */
