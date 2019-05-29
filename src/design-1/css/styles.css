@@ -76,7 +76,7 @@ button {
 #header .company-info {
     display: flex;
     flex-direction: row;
-    flex: 1;
+    flex: 2;
     align-items: center;
 }
 
@@ -109,7 +109,7 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    flex: 2;
+    flex: 1;
     align-items: stretch;
 }
 
@@ -121,6 +121,14 @@ button {
     justify-content: center;
     cursor: pointer;
     padding: 0 10px;
+}
+
+#header .menubar a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 #header .menubar a.selected {
@@ -282,7 +290,7 @@ button {
     display: flex;
     flex-direction: column;
     width: 70%;
-    max-width: 600px;
+    max-width: 550px;
     padding: 40px 0;
     margin: 0 auto;
 }
